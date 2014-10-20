@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="">
+<html lang="" ng-app="myApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +16,17 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
     <link rel="apple-touch-icon-precomposed" href="images/touch/apple-touch-icon-precomposed.png">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
   </head>
   <body>
     <!-- Add your site or app content here -->
+    <ng-view></ng-view>
 
+    <script type="application/dart" src="scripts/main.dart"></script>
+    <script type="text/javascript" src="packages/browser/dart.js"></script>
   </body>
 </html>

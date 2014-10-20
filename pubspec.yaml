@@ -1,0 +1,11 @@
+name: angulardart_seed
+version: 0.0.1
+dependencies:
+  angular: 1.0.0
+  http_server: any
+dev_dependencies:
+  unittest: any
+transformers:
+- angular
+    # Homebrew Dart SDK location
+    dart_sdk: "/usr/local/opt/dart/libexec"
