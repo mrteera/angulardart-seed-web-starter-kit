@@ -2,3 +2,11 @@ node_modules
 .sass-cache
 dist
 .tmp
+
+pubspec.lock
+.pub/
+packages/
+web/packages
+web/*/packages
+web/*/*/packages
+web/*/*/*/packages
