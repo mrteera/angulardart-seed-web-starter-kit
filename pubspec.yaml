@@ -6,6 +6,6 @@ dependencies:
 dev_dependencies:
   unittest: any
 transformers:
-- angular
+- angular:
     # Homebrew Dart SDK location
     dart_sdk: "/usr/local/opt/dart/libexec"
